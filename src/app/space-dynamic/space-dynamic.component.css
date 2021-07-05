@@ -369,7 +369,7 @@ img{
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    height: 70vh;
+    height: 81vh;
     color: #fff;
     width: 100%;
     display: flex;
@@ -389,7 +389,7 @@ img{
     text-transform: capitalize;
     font-weight: 800;
     letter-spacing: 0.25px;
-    line-height: 44px;
+    /* line-height: 44px; */
 }
 .contact-left-p{
     padding-top: 30px;
