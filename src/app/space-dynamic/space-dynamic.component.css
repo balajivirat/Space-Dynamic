@@ -568,10 +568,12 @@ footer{
     }
     .dyna-content{
         padding: 8% 4% 8% 4%;
+        width: 90%;
     }
     .dyna-img{
         padding: 8%;
         margin-top: 50px;
+        width: 86%;
     }
     .card-sec-h2{
         margin: 0px 0px 0px 0px;
