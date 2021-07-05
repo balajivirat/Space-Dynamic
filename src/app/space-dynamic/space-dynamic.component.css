@@ -196,10 +196,11 @@ img{
 }
 .dyna-img{
     padding: 8%;
-    width: 100%;
+    width: 50%;
 }
 .dyna-content{
     padding: 8% 8% 8% 0%;
+    width: 50%;
 }
 .dyna-con-below{
     height: 6px;
