@@ -5,6 +5,9 @@
     height: 111px;
     width: 100%;
     align-items: center;
+    position: relative;
+    animation: topmove 1s;
+    animation-timing-function: linear;
 }
 ul{
     list-style: none;
@@ -68,7 +71,28 @@ li{
     background-image: url(/./assets/images/baner-dec-right.png);
     background-position: right top;
     background-repeat: no-repeat;
-
+}
+.animation-right{
+    position: relative;
+    animation: rightmove 1s;
+    animation-timing-function: linear;
+}
+@keyframes leftmove {
+    from {left: 80%;}
+    to {left: 0%;}
+  }
+  @keyframes rightmove {
+    from {right: 80%;}
+    to {right: 0%;}
+  }
+  @keyframes topmove {
+    from {top: 80%;}
+    to {top: 0%;}
+  }
+.moveable{
+    position: relative;
+    animation: leftmove 1s;
+    animation-timing-function: linear;
 }
 .content-h6{
     text-transform: uppercase;
@@ -172,6 +196,7 @@ img{
 }
 .dyna-img{
     padding: 8%;
+    width: 100%;
 }
 .dyna-content{
     padding: 8% 8% 8% 0%;
@@ -506,6 +531,12 @@ footer{
         width: 89%;
         border-radius: 13px;
         margin-bottom: 20px;
+        padding: 3%;
+    }
+    .spac-p{
+        font-size: 18px;
+        padding-right: 0%;
+        margin-bottom: 25px;
     }
     .spac-content-aligner{
         display: flex;
