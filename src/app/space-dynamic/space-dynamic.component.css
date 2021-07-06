@@ -533,7 +533,7 @@ footer{
         border-radius: 13px;
         margin-bottom: 20px;
         padding: 3%;
-        height: 183px;
+        height: 317px;
     }
     .spac-p{
         font-size: 18px;
@@ -656,6 +656,9 @@ footer{
         width: 82%;
         margin-top: 20px;
         height: 50px;
+    }
+    .height{
+        height: 111vh;
     }
     .df{
         display: flex;
